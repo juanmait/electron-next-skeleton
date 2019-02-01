@@ -7,30 +7,40 @@
   "scripts": {
     "start": "electron .",
     "build": "next build renderer && next export renderer",
-    "dist": "npm run build && bundle"
+    "dist": "npm run build && bundle",
+    "test": "jest",
+    "checkTslint": "tslint-config-prettier-check ./tslint.json",
+    "lint": "tslint 'src/**/*.{ts}'",
+    "fix": "prettier-tslint fix 'src/**/*.ts'"
   },
   "bundle": {
     "name": "ElectronNext"
   },
   "devDependencies": {
-    "@types/react": "^16.7.20",
+    "@types/jest": "^23.3.13",
+    "@types/react": "^16.7.22",
     "@types/react-dom": "^16.0.11",
+    "@types/react-test-renderer": "^16.0.3",
     "bundle": "^2.0.1",
-    "electron": "^4.0.1",
+    "electron": "^4.0.3",
+    "jest": "^24.0.0",
     "next": "^7.0.2",
-    "prettier": "^1.16.0",
+    "prettier": "^1.16.3",
     "prettier-tslint": "^0.4.2",
     "react": "^16.8.0-alpha.1",
     "react-dom": "^16.8.0-alpha.1",
-    "ts-node": "^8.0.1",
+    "react-test-renderer": "^16.7.0",
+    "ts-node": "^8.0.2",
     "tslint": "^5.12.1",
     "tslint-config-prettier": "^1.17.0",
-    "tslint-react": "^3.6.0"
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.3.1"
   },
   "dependencies": {
     "@zeit/next-typescript": "^1.1.1",
     "app-root-path": "^2.0.1",
     "electron-is-dev": "^1.0.1",
-    "electron-next": "^3.1.5"
+    "electron-next": "^3.1.5",
+    "react-icons": "^3.3.0"
   }
 }

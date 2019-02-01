@@ -6,7 +6,7 @@ module.exports = (phase, { defaultConfig }) => {
         target: 'electron-renderer'
       }),
     exportPathMap: () => ({
-      '/start': { page: '/start' }
+      '/': { page: '/App' }
     })
   })
 }
