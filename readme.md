@@ -38,16 +38,10 @@ releases page) The cache dir on linux should be at `$HOME/.electron` or
 
 This project works better with the following vscode extension:
 
-+ **On Windows**: go to the [electron's releases page][electron-releases] and
-download the version listed on the `package.json` file (something like:
-`electron-v4.0.3-win32-x64.zip`). Also download the `SHASUMS256.txt` for that
-version and rename it like: `SHASUMS256.txt-4.0.3`. Then copy those files into
-`$LOCALAPPDATA/electron/Cache` and run `yarn install` again. Now the
-`electron-download` process should install electron from there instead of github.
-+ **On Linux**: Should be the same, only changing the electron's cache
-directory, and downloading the proper build for you linux distribution from the
-releases page) The cache dir in linux should be at `$HOME/.electron` or
-`$HOME/.cache/electron`.
++ [code-runner]
++ [prettier]
++ [vscode-typescript-tslint-plugin]
++ [jest-snapshot-language-support]
 
 </p>
 </details>
