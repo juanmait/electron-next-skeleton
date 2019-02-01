@@ -5,7 +5,14 @@
     "tslint-config-prettier"
   ],
   "linterOptions": {
-    "exclude": [".tmp", "dist", "build", "node_modules", ".vscode", ".next"]
+    "exclude": [
+      ".tmp",
+      "dist",
+      "build",
+      "node_modules",
+      ".vscode",
+      ".next"
+    ]
   },
   "rules": {
     "interface-name": false,
