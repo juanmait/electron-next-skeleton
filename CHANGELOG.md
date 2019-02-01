@@ -1,3 +1,8 @@
+# 2019-02-01
+
++ complete info about new yarn scripts and tools in the readme
++ complete info about electron install from cache for linux in the readme
+
 # 2019-01-31
 
 + add jest v24 support.
