@@ -1,5 +1,7 @@
 # 2019-02-01
 
++ fix syntax error due ts-node not recognizing ES modules
++ remove messed up comments from `tslint.json`
 + complete info about new yarn scripts and tools in the readme
 + complete info about electron install from cache for linux in the readme
 
