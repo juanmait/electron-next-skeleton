@@ -3,10 +3,11 @@ module.exports = (phase, { defaultConfig }) => {
   return withTypescript({
     webpack: config =>
       Object.assign(config, {
-        target: 'electron-renderer'
+        module: 'esnext',
+        target: 'electron-renderer',
       }),
     exportPathMap: () => ({
-      '/': { page: '/App' }
-    })
+      '/': { page: '/App' },
+    }),
   })
 }
