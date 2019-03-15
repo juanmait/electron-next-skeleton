@@ -1,3 +1,26 @@
+# 2019-03-15
+
+## Upgrade versions:
+
+```
+@types/jest                        ^23.3.13  ->   ^24.0.11
+next                                 ^7.0.2  ->     ^8.0.3
+react-icons                          ^3.3.0  ->     ^3.5.0
+@types/react                       ^16.7.22  ->    ^16.8.8
+@types/react-dom                   ^16.0.11  ->    ^16.8.2
+@types/react-test-renderer          ^16.0.3  ->    ^16.8.1
+electron                             ^4.0.3  ->     ^4.1.0
+jest                                ^24.0.0  ->    ^24.5.0
+prettier                            ^1.16.3  ->    ^1.16.4
+react                       ^16.8.0-alpha.1  ->    ^16.8.4
+react-dom                   ^16.8.0-alpha.1  ->    ^16.8.4
+react-test-renderer                 ^16.7.0  ->    ^16.8.4
+ts-node                              ^8.0.2  ->     ^8.0.3
+tslint                              ^5.12.1  ->    ^5.14.0
+tslint-config-prettier              ^1.17.0  ->    ^1.18.0
+typescript                           ^3.3.1  ->  ^3.3.3333
+```
+
 # 2019-02-01
 
 + fix syntax error due ts-node not recognizing ES modules
