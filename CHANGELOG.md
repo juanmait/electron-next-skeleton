@@ -1,3 +1,22 @@
+# 2019-04-03
+
+- regenerate `yarn.lock` file
+- upgrade dependency versions
+  ```
+  app-root-path           ^2.1.0  →    ^2.2.1
+  @types/react           ^16.8.8  →  ^16.8.12
+  @types/react-dom       ^16.8.2  →   ^16.8.3
+  electron                ^4.1.0  →    ^4.1.3
+  jest                   ^24.5.0  →   ^24.7.0
+  next                    ^8.0.3  →    ^8.0.4
+  react                  ^16.8.4  →   ^16.8.6
+  react-dom              ^16.8.4  →   ^16.8.6
+  react-test-renderer    ^16.8.4  →   ^16.8.6
+  tslint                 ^5.14.0  →   ^5.15.0
+  tslint-react            ^3.6.0  →    ^4.0.0
+  typescript           ^3.3.3333  →    ^3.4.1
+  ```
+
 # 2019-03-15
 
 ## Upgrade versions:

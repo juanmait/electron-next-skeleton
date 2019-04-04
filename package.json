@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "main/index.js",
   "license": "MIT",
-  "repository": "juanmait/electron-next-skeleton-ts",
+  "repository": "juanmait/electron-next-skeleton",
   "scripts": {
     "start": "electron .",
     "build": "next build renderer && next export renderer",
@@ -12,34 +12,35 @@
     "checkTslint": "tslint-config-prettier-check ./tslint.json",
     "lint": "tslint 'src/**/*.{ts}'",
     "fix": "prettier-tslint fix 'src/**/*.ts'",
-    "resetPackage": "rm -rf node_modules yarn.lock"
+    "resetPackage": "rm -rf node_modules yarn.lock",
+    "reinstall": "yarn resetPackage && yarn install"
   },
   "bundle": {
     "name": "ElectronNext"
   },
   "devDependencies": {
     "@types/jest": "^24.0.11",
-    "@types/react": "^16.8.8",
-    "@types/react-dom": "^16.8.2",
+    "@types/react": "^16.8.12",
+    "@types/react-dom": "^16.8.3",
     "@types/react-test-renderer": "^16.8.1",
     "bundle": "^2.1.0",
-    "electron": "^4.1.0",
-    "jest": "^24.5.0",
-    "next": "^8.0.3",
+    "electron": "^4.1.3",
+    "jest": "^24.7.0",
+    "next": "^8.0.4",
     "prettier": "^1.16.4",
     "prettier-tslint": "^0.4.2",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4",
-    "react-test-renderer": "^16.8.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-test-renderer": "^16.8.6",
     "ts-node": "^8.0.3",
-    "tslint": "^5.14.0",
+    "tslint": "^5.15.0",
     "tslint-config-prettier": "^1.18.0",
-    "tslint-react": "^3.6.0",
-    "typescript": "^3.3.3333"
+    "tslint-react": "^4.0.0",
+    "typescript": "^3.4.1"
   },
   "dependencies": {
     "@zeit/next-typescript": "^1.1.1",
-    "app-root-path": "^2.1.0",
+    "app-root-path": "^2.2.1",
     "electron-is-dev": "^1.0.1",
     "electron-next": "^3.1.5",
     "react-icons": "^3.5.0"
